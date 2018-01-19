@@ -7,7 +7,9 @@ homepage: https://github.com/apptreesoftware/flutter_google_map_view
 dependencies:
   flutter:
     sdk: flutter
-  uri: ^0.11.0
+  uri:
+    git:
+      url: git://github.com/google/uri.dart.git
 
 environment:
     sdk: '>=1.9.0 <2.0.0'
